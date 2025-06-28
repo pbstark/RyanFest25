@@ -36,8 +36,7 @@ Daffy's SC
 Drumshambo IE  
 Few American US  
 ::::
-:::: column
-Empirical Spirits DK  
+:::: column  
 Empress US 
 Fifty Pounds EN  
 Fred Jerbis IT  
@@ -46,6 +45,7 @@ Greenhook US
 Le Gin FR   
 Leopold's US  
 Malfy IT      
+Mikkeller DK  
 ::::
 :::: column
 Monkey 47 DE   
@@ -96,7 +96,7 @@ cherry blossoms, orange blossoms, lime blossoms, violets, lily, tea, rosemary
 + evergreen: juniper, fir, spruce
 
 + seeds/roots/bark/stamen: coriander, cinnamon, cumin, anise, nutmeg, cardamom, saffron,
-Szechuan pepper, black pepper, almond, licorice, wormwoodd, cassia, orris, cubeb, 
+Szechuan pepper, black pepper, almond, licorice, wormwood, cassia, orris, cubeb, 
 grains of paradise, ginger, acacia seeds, cacao, fennel, guarana, poppy, tonka bean
 
 + umami: seaweed, oysters, mushrooms, capers, reggiano, nuts
@@ -164,10 +164,18 @@ Totality: for $s, t \in \mathcal{S}$, either $s \le t$ or $t \le s$
 
 Multidimensional rankings: conjoint analysis
 
+Illustrate with 2 attributes, juniper $J$ (low, middle, high) and other botanicals $B$
+(floral forward, citrus forward, spice forward).
+
 ---
 
 Single cancellation axiom:
-The relation upon P satisfies single cancellation if and only if for all a and b in A, and x in X, (a, x) > (b, x) is implied for every w in X such that (a, w) > (b, w). Similarly, for all x and y in X and a in A, (a, x) > (a, y) is implied for every d in A such that (d, x) > (d, y). What this means is that if any two levels, a, b, are ordered, then this order holds irrespective of each and every level of X. The same holds for any two levels, x and y of X with respect to each and every level of A.
+
+Let  $b, c \in B$ and $j, k \in J$.
+
+If $(b, j) \ge (c, j)$ for some $j \in J$, then $(b, k) \ge (c, k)$ for all $k \in J$;
+and
+if $(b, j) \ge (b, k)$ for some $b \in B$, then $(c, j) \ge (c, k)$ for all $c \in B$.
 
 ---
 

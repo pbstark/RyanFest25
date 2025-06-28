@@ -22,7 +22,7 @@ header-includes:
 
 ---
 
-![](./AuditPics/peterDanksGin.png)
+![](./AuditPics/peterGdanskGin.jpg)
 
 ---
 

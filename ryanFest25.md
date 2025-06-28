@@ -22,11 +22,16 @@ header-includes:
 
 ---
 
+![](./AuditPics/peterDanksGin.png)
+
+---
+
 ## Peter and I have bonded over gin and "gineology." A few:
 
 ::: columns
 :::: column 
 Anty Gin DK   
+Aster PL  
 The Botanist SC  
 Brockman's EN  
 Caorunn SC  
@@ -42,6 +47,7 @@ Fifty Pounds EN
 Fred Jerbis IT  
 Gin Mare ES    
 Greenhook US  
+Heritage PL  
 Le Gin FR   
 Leopold's US  
 Malfy IT      
@@ -54,6 +60,7 @@ Neversink US
 Nikka Coffee Still JP   
 Plymouth EN  
 Roku JP  
+Sea Stories PL  
 St. George US  
 Tanqueray SC  
 Uncle Val's US  
@@ -186,8 +193,6 @@ Tversky (1967) Polynomial conjoint measurement
 
 ---
 
----
-
 Even 1-d ranking can behave oddly:
 
 Can you taste the same gin twice? Variability:
@@ -228,8 +233,9 @@ $m$ items ranked by $n$ judges.
 
 ---
 
-Rasch "Rating Scale" model:
+Rasch Rating Scale model:
 
+Special case of multinomial logit.
 
 $$
 \Pr\{X_{ni}=x\}={\frac {\exp 
@@ -271,7 +277,7 @@ Each of Peter's senses has an ordered set of gin preferences.
 
 . . .
 
-Rule for choosing gin is a function of those sensory preferences.
+Rule for choosing "best" gin is a function of those sensory preferences.
 
 . . .
 
@@ -279,8 +285,7 @@ No single sense completely determines the choice.
 
 . . .
 
-There is some set of sensory preferences that could make any gin "best" according
-to the chosen function.
+Some set of sensory preferences could make any gin "best.""
 
 . . .
 
@@ -321,7 +326,6 @@ Recommendation engines:
 
 + Model empirical preferences as, say, multinomial regression.
 
-+ Conjoint analysis.
 
 
 
@@ -332,8 +336,8 @@ He prefers a balanced gin, not juniper-forward. He likes both citrus and
 floral notes, but prefers citrus.
 He sometimes drinks his gin with tonic and sometimes neat. 
 I've never seen him order any other gin cocktail.
-His favorite readily available gin is Tanqueray 10. He also likes The Botanist,
-Chase Elegant English Gin, and Zymurgorium Manchester Marmalade Gin.
+His favorite readily available gin is Tanqueray 10. He also likes Monkey 47,
+Caorunn, Chase Elegant English Gin, and Zymurgorium Manchester Marmalade Gin.
 He is not fond of Navy Strength gin. And he finds Nikka and Roku too bitter.
 
 Please recommend three gins Peter is unlikely to have tried, one from eastern Europe, 
@@ -344,157 +348,87 @@ and one omakase, and recommend whether to drink the omakase choice neat or with 
 
 | LLM | Eastern Europe | Southern Europe | Omakase |
 |:-----|:------|:-----|:-----|
-| Ginini Pro | Heritage Gin | Gin Raw | Four Pillars Rare Dry |
-|            | Slovenia                | Spain |    Australia |
-|            |                         |        | start neat then make G&T |
-| GinGPT | Ólafsson Icelandic Gin | Malfy Gin Con Limone  | Procera Blue Dot Gin |
-|        | Iceland             | Italy    | Kenya |
+| Ginini Pro | Baczewski | Gin Mare | Ferdinand's Saar |
+|            | Poland                | Spain |    Germany |
+|            |                         |        | neat |
+| GinGPT | Little Urban Distillery | Malfy Gin Con Limone  | Procera Blue Dot Gin |
+|        | Czech Republic             | Italy    | Kenya |
 |        |                     |          | neat | 
 
 ---
 
 Ginini Pro
 
-Of course. This is a fantastic and detailed profile of Peter's palate.
-It's clear he appreciates a modern, sophisticated gin that showcases craftsmanship 
-beyond just juniper. 
-The key is balance, with a strong preference for bright, fresh citrus over 
-bitter or overtly herbal notes.
-Here are three recommendations he is unlikely to have tried, designed to 
-perfectly match his tastes.
+Peter sounds like he has a sophisticated palate for gin! He appreciates balance, prefers citrus over juniper-forward profiles, and enjoys both citrus and floral notes. His fondness for Tanqueray 10, Monkey 47, Caorunn, Chase Elegant English Gin, and Zymurgorium Manchester Marmalade Gin, along with his aversion to Navy Strength, Nikka, and Roku (due to bitterness), gives us a good roadmap.
+
+Here are three recommendations, keeping in mind gins he's unlikely to have tried:
 
 ---
 
-Eastern European Choice: Heritage Gin (Slovenia)
+Eastern Europe: Baczewski Gin (Poland)
 
-Why Peter will love it: This gin from the Karst region of Slovenia is a beautiful 
-bridge between the floral notes he enjoys in The Botanist and the classic structure he 
-likes in a London Dry. It’s an homage to the region's long history of distilling local 
-juniper (Brinovec), but it is refined into a contemporary, balanced gin. 
-It is absolutely not a juniper-forward gin.
+Why it fits Peter: Baczewski Gin, from Poland, is a classic London Dry style but often described as well-balanced, with a good interplay of botanicals. While it does have juniper, it's not overwhelmingly forward. It tends to feature prominent citrus notes (often lemon and orange peel) and subtle floral or herbal undertones, fitting Peter's preference for citrus over floral but still appreciating both. It's less common than many Western European gins, so Peter is likely to not have encountered it.
 
-The Flavor Profile: The standout botanicals are linden flowers and rosehip, which 
-provide a delicate, honeyed floral sweetness. This is supported by classic notes of coriander and a subtle, soft citrus backbone. It’s exceptionally smooth and elegant, complex without being overwhelming. It shares a certain wild-foraged, terroir-driven character with The Botanist, but with a completely unique Eastern European profile.
-Why he's unlikely to have tried it: Slovenian gin is far from mainstream and 
-requires a visit to a specialty store or online retailer. 
-It's a true discovery bottle for someone who appreciates regional craft.
+Flavor Profile: Expect a clean, crisp gin with bright citrus and a gentle herbaceousness, along with the classic juniper backbone that is balanced rather than dominant.
+
+Why he'll like it: It shares a similar approachable London Dry profile with Tanqueray 10, but with its own distinct Eastern European character. The citrus focus should appeal to him, and it's not known for bitterness.
 
 ---
 
-Southern European Choice: Gin Raw (Spain)
+Southern Europe: Gin Mare (Spain)
 
-Why Peter will love it: Hailing from Barcelona, a hotspot of gin innovation, 
-Gin Raw is the perfect Southern European pick for a Tanqueray 10 lover.
-The distillers' goal was to create a superior gastronomic gin. 
-Like Tanqueray 10, its magic comes from using fresh, vibrant botanicals rather than 
-just dried ones. It specifically caters to a palate that enjoys bright citrus but 
-finds gins like Roku and Nikka too bitter.
+Why it fits Peter: Hailing from Spain, Gin Mare is a prime example of a contemporary Mediterranean gin. It's famous for its savory and aromatic profile, utilizing botanicals like Arbequina olives, rosemary, thyme, and basil, alongside more traditional juniper and citrus. While it's not explicitly "floral," its herbal notes can often provide a similar aromatic complexity that would appeal to someone who enjoys floral gins, while the robust citrus presence (especially orange peel) is very strong. It's widely available in some regions but still unique enough that many gin enthusiasts haven't tried it.
 
-The Flavor Profile: Gin Raw uses a low-temperature distillation process to capture the truest essence of its fresh Mediterranean and exotic botanicals. It leads with a chorus of bright citrus—lemon, citron, and kaffir lime leaf—that is zesty and fresh, not sharp or pithy. This is layered over a subtle herbal base of bay leaf with a hint of spice from black cardamom. It’s sophisticated, exceptionally well-balanced, and has that vibrant "pop" that Peter clearly enjoys.
-Why he's unlikely to have tried it: While Spain's Gin Mare is quite popular, Gin Raw remains more of a bartender's secret and a niche, high-end choice. It's a significant step up in craft and price from the usual suspects and isn't widely distributed.
+Flavor Profile: Savory, aromatic, with distinct olive and herbal notes complemented by a clear burst of citrus. It's incredibly smooth.
+
+Why he'll like it: This gin offers a completely different, yet still balanced, experience from his current favorites. The strong citrus element, combined with unique Mediterranean botanicals, should intrigue him without being overly juniper-forward or bitter. It's a departure but within his preferred flavor wheelhouse.
 
 ---
 
-Omakase Choice: Four Pillars Rare Dry Gin (Australia)
+Omakase Choice: Ferdinand's Saar Dry Gin (Germany)
 
-This is my "chef's choice," selected to be a potential new favorite for Peter. 
-It comes from the Yarra Valley in Australia, a distillery that has rapidly become one 
-of the most awarded and respected in the world.
+Why it fits Peter: While Germany is technically Central Europe, Ferdinand's Saar Dry Gin offers a truly unique and sophisticated profile that fits the "omakase" (chef's choice) criteria. It's distilled with Riesling grapes from the Saar region, which imparts a subtle fruitiness and a delicate, almost floral, sweetness. It's far from juniper-dominant and beautifully balances citrus (often lime and lemon) with a range of floral and herbal botanicals, including lavender and rose. This gin is known for its elegance and complexity.
 
-Why it's the perfect Omakase pick: This gin is practically tailor-made for Peter's palate. 
-It directly mirrors his favorite aspect of Tanqueray 10—the use of whole fresh 
-citrus—by using whole, fresh, organic Australian oranges in the distillation. 
-This gives it an incredibly aromatic and juicy Mediterranean-style citrus character. 
-It has the complexity of The Botanist thanks to unique native botanicals like 
-Tasmanian pepperberry and lemon myrtle, but the end result is a perfectly 
-harmonious gin where the bright orange citrus is the star. 
-It's contemporary, balanced, and a world away from the gins he dislikes.
+Flavor Profile: Delicate, aromatic, with prominent citrus and floral notes, a subtle grape sweetness, and a smooth, refined finish. It's very well-integrated and not bitter.
 
-The Flavor Profile: A wave of bright, sweet orange on the nose and palate, 
-followed by a warm, soft spice from the pepperberry and a hint of lemon sherbet 
-from the lemon myrtle. 
-The juniper is present but acts as a perfect, gentle piney anchor for the other 
-botanicals to shine. It's a modern classic.
-
----
-
-How to Drink It: Start Neat, then make a G&T.
-
-Neat: This gin is so beautifully crafted and aromatic that he absolutely must 
-try it neat first, perhaps with one large ice cube to slightly chill and dilute it. 
-This will allow him to appreciate the incredible aroma of the whole oranges and the 
-subtle complexity of the Australian botanicals. 
-It's smooth enough to be a delightful sipping experience.
-
-With Tonic: This is where the gin truly sings and will likely become his go-to 
-preparation for it. Use a high-quality, neutral tonic (like Fever-Tree Indian Tonic) 
-so as not to mask the gin's botanicals. 
-The carbonation will lift the orange notes, making for an exceptionally bright and 
-refreshing G&T. 
-
-The crucial instruction: garnish with a thick slice of fresh orange, not lime or lemon. 
-This complements the gin's star botanical and completes the experience.
+Drink Recommendation for Ferdinand's Saar Dry Gin: Neat. This gin is crafted with such care and has such a nuanced, delicate flavor profile that adding tonic, while not necessarily bad, could easily overpower its subtle complexities. Peter appreciates drinking gin neat sometimes, and Ferdinand's is an excellent candidate for this. Encourage him to try it neat first, perhaps with a single large ice cube and a lemon peel twist to highlight its citrus. If he insists on tonic, a very light, high-quality tonic with a minimal amount of sugar would be best, to allow the gin to still shine.
 
 ---
 
 GinGPT
 
-Peter’s taste is clearly refined and leans toward elegant, citrus-forward gins 
-with balance and subtlety. Based on what he enjoys (like Tanqueray 10, The Botanist, 
-and Chase Elegant), he favors premium gins with layered botanical character but 
-without overwhelming bitterness or high proof.
-
-Here are three thoughtful recommendations tailored to his profile, keeping in mind 
-rarity and regionality:
+Thanks for the detailed profile — that helps a lot. Based on Peter's preferences (balanced rather than juniper-heavy, citrus-leaning, floral-friendly, no harsh bitterness, and aversion to overproof gins), here are three gins he’s unlikely to have tried, each fitting your regional request and taste profile:
 
 ---
 
-Eastern Europe:
-Ólafsson Icelandic Gin (Iceland)
+Eastern Europe:  
+Little Urban Distillery Gin (Czech Republic)
 
-Why it fits: While Iceland isn't traditionally known for gin, 
-Ólafsson offers a beautifully smooth and citrusy profile, using local botanicals 
-like Arctic thyme and birch. 
-It's well-rounded, delicate, and not juniper-forward. 
-The citrus is fresh rather than pithy or bitter, and it carries subtle floral notes.
+Profile: This small-batch gin from Prague is beautifully balanced, with a citrus-forward palate (lemon zest and grapefruit) and delicate herbaceous and floral layers.
 
-Why Peter might like it: It's elegant and complex without being aggressive. 
-Likely under the radar and not something he’s stumbled across unless he’s 
-explored niche bars or traveled in Scandinavia.
+Why it fits: It's a refined London Dry style without the aggressive juniper hit. It has the elegance and balance Peter seems to appreciate in Caorunn and Tanqueray 10.
+
+Try it: Neat or with a light Mediterranean tonic and a lemon twist.
 
 ---
 
-Southern Europe:
+Southern Europe:  
 Malfy Gin Con Limone (Italy)
 
-Why it fits: Malfy’s Con Limone is bursting with Amalfi Coast lemon zest. 
-It leans very citrus-forward but still carries the botanical structure of a London Dry. 
-It's smooth, bright, and not bitter—perfect for warm weather or as a refreshing gin 
-neat or with tonic.
+Profile: Distilled with Italian lemons from the Amalfi Coast and juniper, this gin is sunshine in a glass — zesty, crisp, and soft on the palate.
 
-Why Peter might like it: Think of this as a gin cousin to Zymurgorium Marmalade 
-Gin—sunny, clean, and fruit-forward, but with a classic dry-gin spine. 
-It’s a joyful and accessible Mediterranean-style gin with sophistication.
+Why it fits: Heavy on citrus but not synthetic or overpowering, it bridges the gap between craft and accessibility. Think Tanqueray 10’s citrus with a lighter, more playful tone.
+
+Try it: With tonic — preferably Fever-Tree Light or a rosemary tonic — and a lemon peel.
+
 
 ---
 
-Omakase:
+Omakase Pick:  
 Procera Blue Dot Gin (Kenya)
 
-Tasting profile: Made in Nairobi, using rare African juniper (Juniperus procera) 
-and local botanicals like Swahili limes, pink peppercorns, and cardamom, this gin is 
-vivid, citrusy, and slightly earthy—without bitterness or cloying juniper. 
-Aged in glass, it’s pristine and ultra-smooth.
+Profile: Made with African juniper and botanicals sourced across the continent, this ultra-premium gin is complex, citrus-forward (think fresh lime leaf), with soft spice and a creamy, almost nutty finish.
 
-Recommended serve: Neat, ideally slightly chilled or with a single cube. 
-Its complexity unfolds beautifully without tonic, much like how Peter enjoys 
-the more premium gins.
+Why it fits: It’s not bitter or harsh, beautifully distilled, and strikes a similar "elegant but expressive" note like Monkey 47 or Chase Elegant.
 
-Why it fits: This is a world-class, small-batch gin with character and finesse. 
-It's unlike anything from the UK or Japan. Given that Peter enjoys neat sipping and appreciates citrus without overpowering bite, this is a rare and remarkable bottle that would likely impress him.
-Let me know if you want a recommendation for a tonic or garnish to pair with 
-any of these—especially for the Malfy. 
-Or if Peter leans toward a particular type of citrus (lemon vs. grapefruit vs. orange), 
-we can fine-tune even further.
-
-
+Try it: Neat — served slightly chilled to highlight its layered flavor and smooth texture.

@@ -22,39 +22,45 @@ header-includes:
 
 ---
 
-## Peter and I have bonded over gin and "gineology." A few we've discussed
+## Peter and I have bonded over gin and "gineology." A few:
 
-Anty Gin (Denmark), 
-The Botanist (Scotland), 
-Brockman's (England),
-Caorunn (Scotland),
-Chase (England) Manchester Marmalade, ,
-COIT (US),
-Conker (England),
-Daffy's (Scotland),
-Drumshambo (Ireland),
-Few American (US),
-Empirical Spirits (Denmark),
-Empress (US),
-Fifty Pounds (England),
-Fred Jerbis (Italy), 
-Gin Mare (Spain),
-Greenhook (US),
-Le Gin (France), 
-Leopold's (US), 
-Malfy (Italy),
-Manchester Marmalade Gin (England),
-Monkey 47 (Germany), 
-Napue (Finland),
-Neversink (US), 
-Nikka Coffee Still (Japan),
-Plymouth (England),
-Roku (Japan),
-St. George (US),
-Tanqueray (Scotland, formerly England),
-Uncle Val's (US),
-Whitley Neill (England),
-Zymurgorium Manchester Marmalade Gin (England)
+::: columns
+:::: column 
+Anty Gin DK   
+The Botanist SC  
+Brockman's EN  
+Caorunn SC  
+COIT US  
+Conker EN
+Daffy's SC  
+Drumshambo IE  
+Few American US  
+::::
+:::: column
+Empirical Spirits DK  
+Empress US 
+Fifty Pounds EN  
+Fred Jerbis IT  
+Gin Mare ES    
+Greenhook US  
+Le Gin FR   
+Leopold's US  
+Malfy IT      
+::::
+:::: column
+Monkey 47 DE   
+Napue FI  
+Neversink US  
+Nikka Coffee Still JP   
+Plymouth EN  
+Roku JP  
+St. George US  
+Tanqueray SC  
+Uncle Val's US  
+Whitley Neill EN    
+Zymurgorium Manchester Marmalade EN  
+::::
+:::
 
 ---
 

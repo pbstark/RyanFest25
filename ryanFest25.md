@@ -22,7 +22,14 @@ header-includes:
 
 ---
 
-![](./AuditPics/peterGdanskGin.jpg)
+::: columns
+:::: column
+![](./AuditPics/pryanGdanskGin.jpg)
+::::
+:::: column
+![](./AuditPics/pryan-gin-1.jpg)
+::::
+:::
 
 ---
 
@@ -65,6 +72,7 @@ St. George US
 Tanqueray SC  
 Uncle Val's US  
 Whitley Neill EN    
+Williams Elegant EN  
 Zymurgorium Manchester Marmalade EN  
 ::::
 :::
@@ -72,7 +80,7 @@ Zymurgorium Manchester Marmalade EN
 ---
 
 Genever: first mention 1200s, arose late 1500s,  
-Old Tom in 1700s, then London Dry in 1800s
+Old Tom in 1700s, London Dry in 1800s
 
 ---
 
@@ -102,7 +110,7 @@ cherry blossoms, orange blossoms, lime blossoms, violets, lily, tea, rosemary
 
 + evergreen: juniper, fir, spruce
 
-+ seeds/roots/bark/stamen: coriander, cinnamon, cumin, anise, nutmeg, cardamom, saffron,
++ seeds/roots/bark/stamen/pollen: coriander, cinnamon, cumin, anise, nutmeg, cardamom, saffron,
 Szechuan pepper, black pepper, almond, licorice, wormwood, cassia, orris, cubeb, 
 grains of paradise, ginger, acacia seeds, cacao, fennel, guarana, poppy, tonka bean
 
@@ -112,7 +120,7 @@ grains of paradise, ginger, acacia seeds, cacao, fennel, guarana, poppy, tonka b
 
 Aged? Type of barrel? 
 
-Appearance: clear? Colored? louche? Legs? 
+Appearance: Clear? Colored? Louche? Legs? 
 
 Nose
 
@@ -243,11 +251,9 @@ $$
 \exp {{\sum _{k=0}^{j}(\beta _{n}}-{(\delta _{i}-\tau _{k}}))}}}
 $$
 where 
-$\delta _{i}$ is the deliciousness of item $i$ and 
-$\tau _{k}$ is the $k$th threshold location of the rating 
-scale which is in common to all the items. 
-$m$ is the maximum score 
-and is identical for all the items. 
+$\delta _{i}$ is the deliciousness of item $i$,
+$\tau _{k}$ is the $k$th threshold of the scale,
+$m$ is max score. 
 
 $\tau _{0}$ set implicitly by the other values of $\tau_i$.
 
@@ -294,7 +300,7 @@ Whether Peter prefers gin A to gin B depends only on gin A and gin B, not on gin
 Bartender: "We have Tanqueray 10 and Hendricks."  
 Peter: "I'll have Tanqueray 10."  
 Bartender: "We also have Sipsmith."  
-Peter: "In that case, give me the Hendricks."
+Peter: "In that case, I'd prefer the Hendricks."
 
 . . .
 

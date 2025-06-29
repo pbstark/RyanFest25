@@ -159,6 +159,11 @@ Set aside personal differences: Is there a "best" gin in Peter's opinion?
 
 ---
 
+::: columns
+:::: column
+![](./AuditPics/H2G2_UK_front_cover.jpg)
+::::
+:::: column
 Douglas Adams' Bistromathics: the math involved in splitting the bill at a bistro.
 
 Anything is possible.
@@ -169,6 +174,8 @@ Anything is possible.
 Gineology: the math involved in defining and identifying a "best" gin. 
 
 Nothing is possible.
+::::
+:::
 
 ---
 

@@ -47,7 +47,7 @@ Conker EN
 Daffy's SC  
 Drumshambo IE  
 Few American US  
-Empress US 
+Empress US  
 Fifty Pounds EN  
 Fred Jerbis IT  
 Gin Mare ES    

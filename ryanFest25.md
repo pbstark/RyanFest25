@@ -47,20 +47,18 @@ Conker EN
 Daffy's SC  
 Drumshambo IE  
 Few American US  
-::::
-:::: column  
 Empress US 
 Fifty Pounds EN  
 Fred Jerbis IT  
 Gin Mare ES    
+::::
+:::: column  
 Greenhook US  
 Heritage PL  
 Le Gin FR   
 Leopold's US  
 Malfy IT      
 Mikkeller DK  
-::::
-:::: column
 Monkey 47 DE   
 Napue FI  
 Neversink US  
@@ -69,6 +67,8 @@ Plymouth EN
 Roku JP  
 Sea Stories PL  
 St. George US  
+::::
+:::: column
 Tanqueray SC  
 Uncle Val's US  
 Whitley Neill EN    
@@ -90,11 +90,7 @@ Old Tom in 1700s, London Dry in 1800s
 
 1751 "drug crisis"
 
----
 
-Base spirit: wheat, rye, barley, corn, grapes, apples, honey, ...
-
-Style: genever, Old Tom, London Dry, contemporary/western, Plymouth, navy strength, aged, spiced 
 
 ---
 
@@ -118,27 +114,26 @@ grains of paradise, ginger, acacia seeds, cacao, fennel, guarana, poppy, tonka b
 
 ---
 
+
+Style: genever, Old Tom, London Dry, contemporary/western, Plymouth, navy strength, aged, spiced, 
+seasonal gins, local gins 
+
+Base spirit: wheat, rye, barley, corn, grapes, apples, honey, ...
+
+Processes: pot still, column still, maceration, herbs in pot or vapor path, cuts, aging
 Aged? Type of barrel? 
 
 Appearance: Clear? Colored? Louche? Legs? 
 
 Nose
 
-Palate (taste and mouth feel—unctuous? Thin?)
+Palate: taste and mouth feel--unctuous? thin?
 
-Finish (flavor, lingering)
+Finish: flavor, duration of lingering
 
 
 
 ABV: 40-43, 44-50, Navy strength (57+)
-
----
-
-Processes: 
-
-Pot still, column still, maceration, sack in pot, sack in column, cuts, aging
-
-Seasonal gins, local gins
 
 ---
 
@@ -164,14 +159,14 @@ Set aside personal differences: Is there a "best" gin in Peter's opinion?
 ![](./AuditPics/H2G2_UK_front_cover.jpg)
 ::::
 :::: column
-Douglas Adams' Bistromathics: the math involved in splitting the bill at a bistro.
+Douglas Adams' Bistromathics: the math involved in splitting the bill at a bistro.  
 
 Anything is possible.
 
 . . .
 
 
-Gineology: the math involved in defining and identifying a "best" gin. 
+Gineology: the math involved in defining and identifying a "best" gin.   
 
 Nothing is possible.
 ::::
@@ -191,6 +186,8 @@ Transitive: if $s, t, u \in \mathcal{S}$ then $s \le t$ and $t \le u$ implies $s
 Antisymmetric: if $s, t \in \mathcal{S}$ then $s \le t$ and $t \le s$ implies $s=t$.
 
 Totality: for $s, t \in \mathcal{S}$, either $s \le t$ or $t \le s$
+
+(Without antisymmetry, "preorder")
 
 ---
 
@@ -263,14 +260,6 @@ $$
 
 ---
 
-Thurstonian ranking model
-
-$m$ items ranked by $n$ judges. 
-
-"latent variables" 
-
----
-
 Rasch Rating Scale model:
 
 Special case of multinomial logit.
@@ -327,6 +316,8 @@ Some set of sensory preferences could make any gin "best.""
 
 Whether Peter prefers gin A to gin B depends only on gin A and gin B, not on gin C.
 
+. . .
+
 Bartender: "We have Tanqueray 10 and Hendricks."  
 Peter: "I'll have Tanqueray 10."  
 Bartender: "We also have Sipsmith."  
@@ -362,7 +353,9 @@ Recommendation engines:
 
 + Model empirical preferences as, say, multinomial regression.
 
++ Model empirical preferences using Conjoint Analysis (but do the assumptions hold?)
 
++ LLMs?
 
 
 ---

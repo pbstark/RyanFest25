@@ -24,10 +24,10 @@ header-includes:
 
 ::: columns
 :::: column
-![](./AuditPics/pryanGdanskGin.jpg)
+![](./AuditPics/pryan-gin-lux.jpeg)
 ::::
 :::: column
-![](./AuditPics/pryan-gin-1.jpg)
+![](./AuditPics/pryan-gin-gdansk.jpeg)
 ::::
 :::
 
@@ -177,7 +177,8 @@ Totality: for $s, t \in \mathcal{S}$, either $s \le t$ or $t \le s$
 ## Reducing multidimensional measurements to a 1-D scale
 
 
-Multidimensional rankings: conjoint analysis
+Multidimensional rankings: conjoint measurement (Luce & Tukey, 1964), Plynomial conjoint measurement
+(Tversky, 1967)
 
 Illustrate with 2 attributes, juniper $J$ (low, middle, high) and other botanicals $B$
 (floral forward, citrus forward, spice forward).
@@ -192,12 +193,16 @@ If $(b, j) \ge (c, j)$ for some $j \in J$, then $(b, k) \ge (c, k)$ for all $k \
 and
 if $(b, j) \ge (b, k)$ for some $b \in B$, then $(c, j) \ge (c, k)$ for all $c \in B$.
 
+If you prefer more juniper in a floral gin, you must also prefer more juniper in a citrus gin.
+
 ---
 
 
 Double cancellation axiom:
 
-Tversky (1967) Polynomial conjoint measurement
+If $(b, j) \ge (c, k)$ and $(c, \ell) > (d, j)$ then 
+＄(b, \ell) > (d, k)$
+
 
 ---
 

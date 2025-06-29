@@ -159,6 +159,19 @@ Set aside personal differences: Is there a "best" gin in Peter's opinion?
 
 ---
 
+Douglas Adams' Bistromathics: the math involved in splitting the bill at a bistro.
+
+Anything is possible.
+
+. . .
+
+
+Gineology: the math involved in defining and identifying a "best" gin. 
+
+Nothing is possible.
+
+---
+
 ## Can gins be ranked in a total order?
 
 
@@ -201,7 +214,12 @@ If you prefer more juniper in a floral gin, you must also prefer more juniper in
 Double cancellation axiom:
 
 If $(b, j) \ge (c, k)$ and $(c, \ell) > (d, j)$ then 
-＄(b, \ell) > (d, k)$
+＄(b, \ell) > (d, k)$.
+
+If you like a floral gin with medium juniper more than you like a citrus gin
+with low juniper and you like a citrus gin with high juniper more than you like
+a spicy gin with medium juniper, then you must also like a floral gin with high juniper
+more than you like a spicy gin with medium juniper.
 
 
 ---
@@ -211,7 +229,7 @@ Even 1-d ranking can behave oddly:
 Can you taste the same gin twice? Variability:
  
 + batch
-+ temperature
++ temperature (& its influence on dilution)
 + mixer
 + weather, mood, time of day, food, ...
 

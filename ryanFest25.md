@@ -214,7 +214,7 @@ If you prefer more juniper in a floral gin, you must also prefer more juniper in
 Double cancellation axiom:
 
 If $(b, j) \ge (c, k)$ and $(c, \ell) > (d, j)$ then 
-＄(b, \ell) > (d, k)$.
+$(b, \ell) > (d, k)$.
 
 If you like a floral gin with medium juniper more than you like a citrus gin
 with low juniper and you like a citrus gin with high juniper more than you like
@@ -275,7 +275,7 @@ $$
 $$
 where 
 $\delta _{i}$ is the deliciousness of item $i$,
-$\tau _{k}$ is the $k$th threshold of the scale,
+$\tau _{k}$ is the $k$th scale threshold,
 $m$ is max score. 
 
 $\tau _{0}$ set implicitly by the other values of $\tau_i$.

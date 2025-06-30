@@ -171,13 +171,13 @@ Nothing is possible.
 
 Total order $\le$ on a set $\mathcal{S}$:
 
-Reflexive: $\forall s \in \mathcal{S}, \; s \le s$.
++ Reflexive: $\forall s \in \mathcal{S}, \; s \le s$.
 
-Transitive: if $s, t, u \in \mathcal{S}$ then $s \le t$ and $t \le u$ implies $s \le u$.
++ Transitive: if $s, t, u \in \mathcal{S}$ then $s \le t$ and $t \le u$ implies $s \le u$.
 
-Antisymmetric: if $s, t \in \mathcal{S}$ then $s \le t$ and $t \le s$ implies $s=t$.
++ Antisymmetric: if $s, t \in \mathcal{S}$ then $s \le t$ and $t \le s$ implies $s=t$.
 
-Totality: for $s, t \in \mathcal{S}$, either $s \le t$ or $t \le s$
++ Totality: for $s, t \in \mathcal{S}$, either $s \le t$ or $t \le s$
 
 (Without antisymmetry, "preorder")
 
@@ -198,9 +198,9 @@ Single cancellation axiom:
 
 Let  $b, c \in B$ and $j, k \in J$.
 
-If $(b, j) \ge (c, j)$ for some $j \in J$, then $(b, k) \ge (c, k)$ for all $k \in J$;
-and
-if $(b, j) \ge (b, k)$ for some $b \in B$, then $(c, j) \ge (c, k)$ for all $c \in B$.
++ If $(b, j) \ge (c, j)$ for some $j \in J$, then $(b, k) \ge (c, k)$ for all $k \in J$.
+
++ If $(b, j) \ge (b, k)$ for some $b \in B$, then $(c, j) \ge (c, k)$ for all $c \in B$.
 
 If you prefer more juniper in a floral gin, you **must** prefer more juniper in a citrus gin.
 
@@ -209,7 +209,7 @@ If you prefer more juniper in a floral gin, you **must** prefer more juniper in 
 
 Double cancellation axiom:
 
-If $(b, j) \ge (c, k)$ and $(c, \ell) > (d, j)$ then 
++ If $(b, j) \ge (c, k)$ and $(c, \ell) > (d, j)$ then 
 $(b, \ell) > (d, k)$.
 
 If you like a floral gin with medium juniper more than you like a citrus gin
@@ -245,9 +245,9 @@ Preference models:
 
 Thurstonian
 
-Random vector $\mathbf{Z} = (Z_1, \ldots, Z_n)$.
++ Random vector $\mathbf{Z} = (Z_1, \ldots, Z_n)$.
 
-Item $i$ is preferred to item $j$ iff $Z_i > Z_j$
++ Item $i$ is preferred to item $j$ iff $Z_i > Z_j$
 
 ---
 

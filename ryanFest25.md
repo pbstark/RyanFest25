@@ -35,47 +35,39 @@ header-includes:
 
 ## Peter and I have bonded over gin and "gineology." A few:
 
-::: columns
-:::: column 
-Anty Gin DK   
-Aster PL  
-The Botanist SC  
-Brockman's EN  
-Caorunn SC  
-COIT US  
-Conker EN
-Daffy's SC  
-Drumshambo IE  
-Few American US  
-Empress US  
-Fifty Pounds EN  
-Fred Jerbis IT  
-Gin Mare ES    
-::::
-:::: column  
-Greenhook US  
-Heritage PL  
-Le Gin FR   
-Leopold's US  
-Malfy IT      
-Mikkeller DK  
-Monkey 47 DE   
-Napue FI  
-Neversink US  
-Nikka Coffee Still JP   
-Plymouth EN  
-Roku JP  
-Sea Stories PL  
-St. George US  
-::::
-:::: column
-Tanqueray SC  
-Uncle Val's US  
-Whitley Neill EN    
-Williams Elegant EN  
-Zymurgorium Manchester Marmalade EN  
-::::
-:::
+Anty Gin DK,
+Aster PL,
+The Botanist SC,
+Brockman's EN,
+Caorunn SC,
+COIT US,
+Conker EN,
+Daffy's SC,
+Drumshambo IE,
+Few American US,
+Empress US,
+Fifty Pounds EN,
+Fred Jerbis IT,
+Gin Mare ES,
+Greenhook US,
+Heritage PL,
+Le Gin FR,
+Leopold's US,
+Malfy IT,    
+Mikkeller DK,
+Monkey 47 DE,
+Napue FI,
+Neversink US,
+Nikka Coffee Still JP, 
+Plymouth EN,
+Roku JP,
+Sea Stories PL,
+St. George US,
+Tanqueray SC,
+Uncle Val's US,
+Whitley Neill EN,  
+Williams Elegant EN,
+Zymurgorium Manchester Marmalade EN
 
 ---
 

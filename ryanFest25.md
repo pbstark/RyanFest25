@@ -7,7 +7,7 @@ title: |
        | On the existence and identification of a "best" gin  
        | A spirited exploration of conjoint measurement and social choice theory
 subtitle: |
-          | RyanFest 2025
+          | Ryan Fest 2025
           | Gdansk, Poland
 author: Philip B. Stark
 institute: University of California, Berkeley
@@ -461,3 +461,7 @@ Profile: Made with African juniper and botanicals sourced across the continent, 
 Why it fits: It’s not bitter or harsh, beautifully distilled, and strikes a similar "elegant but expressive" note like Monkey 47 or Chase Elegant.
 
 Try it: Neat — served slightly chilled to highlight its layered flavor and smooth texture.
+
+---
+
+### Happy Birthday, Peter!

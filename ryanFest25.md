@@ -281,8 +281,6 @@ $m$ is max score.
 
 $\tau _{0}$ set implicitly by the other values of $\tau_i$.
 
-Special case of multinomial logit.
-
 ---
 
 Let your senses vote? 

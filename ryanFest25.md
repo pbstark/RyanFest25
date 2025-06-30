@@ -8,6 +8,7 @@ title: |
        | A spirited exploration of conjoint measurement and social choice theory
 subtitle: |
           | Ryan Fest 2025
+		  | Polish-Japanese Academy of Information Technology
           | Gdansk, Poland
 author: Philip B. Stark
 institute: University of California, Berkeley

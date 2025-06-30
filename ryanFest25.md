@@ -156,6 +156,7 @@ Anything is possible.
 
 . . .
 
+\vspace{.5in}
 
 Gineology: the math involved in defining and identifying a "best" gin.   
 

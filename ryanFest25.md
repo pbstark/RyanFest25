@@ -92,7 +92,7 @@ Typically 6-50 botanicals
 basil, elderflower, heather, cornflower, fuchsia, hawthorn, hibiscus, clover,
 cherry blossoms, orange blossoms, lime blossoms, violets, lily, tea, rosemary
 
-+ citrus: lemon, lime, orange, blood orange, grapefruit, yuzu, kaffir lime, 
++ citrus: lemon, lime, orange, blood orange, grapefruit, yuzu, kaffir lime  
 
 + other fruit: cucumber, rhubarb, tomato
 

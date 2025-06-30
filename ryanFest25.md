@@ -112,10 +112,9 @@ seasonal gins, local gins
 
 Base spirit: wheat, rye, barley, corn, grapes, apples, honey, ...
 
-Processes: pot still, column still, maceration, herbs in pot or vapor path, cuts, aging
-Aged? Type of barrel? 
+Processes: pot still, column still, maceration and/or steam extraction, cuts, aging (& barrel type)
 
-Appearance: Clear? Colored? Louche? Legs? 
+Appearance: clear? colored? louche? legs? 
 
 Nose
 

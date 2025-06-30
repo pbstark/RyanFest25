@@ -186,7 +186,7 @@ Total order $\le$ on a set $\mathcal{S}$:
 ## Reducing multidimensional measurements to a 1-D scale
 
 
-Multidimensional rankings: conjoint measurement (Luce & Tukey, 1964), Plynomial conjoint measurement
+Multidimensional rankings: conjoint measurement (Luce & Tukey, 1964), Polynomial conjoint measurement
 (Tversky, 1967)
 
 Illustrate with 2 attributes, juniper $J$ (low, middle, high) and other botanicals $B$

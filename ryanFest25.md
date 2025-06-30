@@ -150,7 +150,7 @@ Set aside personal differences: Is there a "best" gin in Peter's opinion?
 ![](./AuditPics/H2G2_UK_front_cover.jpg)
 ::::
 :::: column
-Douglas Adams' Bistromathics: the math involved in splitting the bill at a bistro.  
+Bistromathics: the math involved in splitting the bill at a bistro.  
 
 Anything is possible.
 
@@ -171,13 +171,13 @@ Nothing is possible.
 
 Total order $\le$ on a set $\mathcal{S}$:
 
-Reflexive: $\forall s \in \mathcal{S}, \; s \le s$.
+    Reflexive: $\forall s \in \mathcal{S}, \; s \le s$.
 
-Transitive: if $s, t, u \in \mathcal{S}$ then $s \le t$ and $t \le u$ implies $s \le u$.
+    Transitive: if $s, t, u \in \mathcal{S}$ then $s \le t$ and $t \le u$ implies $s \le u$.
 
-Antisymmetric: if $s, t \in \mathcal{S}$ then $s \le t$ and $t \le s$ implies $s=t$.
+    Antisymmetric: if $s, t \in \mathcal{S}$ then $s \le t$ and $t \le s$ implies $s=t$.
 
-Totality: for $s, t \in \mathcal{S}$, either $s \le t$ or $t \le s$
+    Totality: for $s, t \in \mathcal{S}$, either $s \le t$ or $t \le s$
 
 (Without antisymmetry, "preorder")
 
@@ -196,25 +196,25 @@ Illustrate with 2 attributes, juniper $J$ (low, middle, high) and other botanica
 
 Single cancellation axiom:
 
-Let  $b, c \in B$ and $j, k \in J$.
+    Let  $b, c \in B$ and $j, k \in J$.
 
-If $(b, j) \ge (c, j)$ for some $j \in J$, then $(b, k) \ge (c, k)$ for all $k \in J$;
+    If $(b, j) \ge (c, j)$ for some $j \in J$, then $(b, k) \ge (c, k)$ for all $k \in J$;
 and
 if $(b, j) \ge (b, k)$ for some $b \in B$, then $(c, j) \ge (c, k)$ for all $c \in B$.
 
-If you prefer more juniper in a floral gin, you must also prefer more juniper in a citrus gin.
+If you prefer more juniper in a floral gin, you **must** prefer more juniper in a citrus gin.
 
 ---
 
 
 Double cancellation axiom:
 
-If $(b, j) \ge (c, k)$ and $(c, \ell) > (d, j)$ then 
+    If $(b, j) \ge (c, k)$ and $(c, \ell) > (d, j)$ then 
 $(b, \ell) > (d, k)$.
 
 If you like a floral gin with medium juniper more than you like a citrus gin
 with low juniper and you like a citrus gin with high juniper more than you like
-a spicy gin with medium juniper, then you must also like a floral gin with high juniper
+a spicy gin with medium juniper, then you **must** like a floral gin with high juniper
 more than you like a spicy gin with medium juniper.
 
 
@@ -243,6 +243,18 @@ Intransitive gin?
 
 Preference models:
 
+Thurstonian
+
+Random vector $\mathbf{Z} = (Z_1, \ldots, Z_n)$.
+
+Item $i$ is preferred to item $j$ iff $Z_i > Z_j$
+
+---
+
+![](./AuditPics/evansEtal19-abstract.png)
+
+---
+
 Multinomial logit
 
 $$\Pr \{ R_j = k\} = \frac{e^{\boldsymbol{\beta}_k 
@@ -252,7 +264,7 @@ $$
 
 ---
 
-Rasch Rating Scale model:
+Rasch Rating Scale model
 
 Special case of multinomial logit.
 
@@ -269,11 +281,6 @@ $m$ is max score.
 $\tau _{0}$ set implicitly by the other values of $\tau_i$.
 
 Special case of multinomial logit.
-
----
-
-
-![](./AuditPics/evansEtal19-abstract.png)
 
 ---
 
@@ -311,7 +318,7 @@ Whether Peter prefers gin A to gin B depends only on gin A and gin B, not on gin
 . . .
 
 Bartender: "We have Tanqueray 10 and Hendricks."  
-Peter: "I'll have Tanqueray 10."  
+Peter: "Tanqueray 10, please."  
 Bartender: "We also have Sipsmith."  
 Peter: "In that case, I'd prefer the Hendricks."
 
